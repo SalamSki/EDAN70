@@ -6,7 +6,10 @@ import pandas as pd
 import numpy as np
 
 def scrape_links(link):
-  res = requests.get(f"https://runeberg.org{link}")
+  res = requests.get(f"https://runeberg.org{link}", headers={
+    "Accept": "text/plain",
+    "Connection": "keep-alive", 
+})
   if res.status_code == 200:
     find_text_with_table = re.findall(r"(?<=<!-- mode=normal -->).+(?=<!-- NEWIMAGE2 ..>)",res.text, flags=re.S)
     if len(find_text_with_table) > 0:
