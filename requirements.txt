@@ -1,0 +1,14 @@
+ipykernel
+matplotlib
+jupyter
+jupyterlab
+numpy
+scikit-learn
+pandas
+matplotlib
+transformers
+tqdm
+torch
+SPARQLWrapper
+qdrant-client
+sentence-transformers
