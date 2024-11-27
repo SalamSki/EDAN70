@@ -2,3 +2,4 @@
 dataset/NF_E?_B.json
 dataset/*.pth
 .venv
+extracted_entries.json
