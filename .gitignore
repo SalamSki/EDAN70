@@ -1,5 +1,5 @@
+dataset/extracted_entries.json
+dataset/clear_text/*.pth
+dataset/headword/*.pth
 .DS_Store
-dataset/NF_E?_B.json
-dataset/*.pth
 .venv
-extracted_entries.json
