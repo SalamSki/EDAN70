@@ -1,9 +1,6 @@
-import os
-import time
 import regex as re 
 import requests
 import pandas as pd
-import numpy as np
 
 def scrape_links(link):
   res = requests.get(f"https://runeberg.org{link}", headers={
