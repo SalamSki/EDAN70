@@ -3210,7 +3210,7 @@
     {
       "definition": "Station C6 Welbeck Street C3, 4 Wilcox Road............ D7",
       "headword": "Station Welbeck",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Torpshammar, jernvägsstation i Torps socken, Vesternorrlands län, der den 58 km. långa Sundsvallsbanan ( fullbordad 1874 såsom enskild smalspårig, 1885 inköpt af staten och förändrad till normalspårig ) förenas med tvärbanan genom Jämtland. Stationen är uppkallad efter det bredvid liggande jernbruket, som nedlades 1883.",
@@ -3445,7 +3445,7 @@
     {
       "definition": "Island................ 1948 27, 8 19, 7",
       "headword": "Island",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Rögle, gods i Välinge sn, Malmöhus län, 10 km s. v. om Ängelholm ; med underlydande 816 har, därav 601 åker. R. lydde länge under Span - narp och sedermera jämte detta gods under Vege - holm. Godset köptes 1830 av greve C. J. Wacht - meister, som bl. a. ombyggde manbyggnaden. Nuv. ägare är ett familj ebolag.",
@@ -3560,17 +3560,17 @@
     {
       "definition": "Storsjön ( Jämtland )............ 456 292 74",
       "headword": "Storsjön",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Grimdalen, Anne, norsk skulptris ( f. 1899 ), utbildad vid akad. i Oslo och Köpenhamn. G. har utfört ett flertal djurskulpturer. Hon väckte stor uppmärksamhet genom sina tävlingsförslag 1938 till skulpturutsmyckningen av Oslo nya rådhus. Hon har där bl. a. utfört en ryttarstaty av Harald Hårdråde i jätteformat för den stora centralhallen.",
       "headword": "Grimdalen",
-      "type": 1
+      "type": 2
     },
     {
       "definition": "Bulgarien....... 49, 803",
       "headword": "Bulgarien",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Florö, enda staden ( ladested ) i Sogn og Fjordane fylke, Norge, på den lilla ön Flora vid Brannsöy ; 1, 494 inv. ( 1930 ). Rikt sill - och laxfiske ; livlig fiskhandel.",
@@ -4040,7 +4040,7 @@
     {
       "definition": "Solna................ — — 37, 063",
       "headword": "Solna",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Altenessen, landskommun i preuss. reg. - området Düsseldorf. 28, 668 inv. ( 1900 ). Knutpunkt för flera järnvägar. Stenkolsgrufvor.",
@@ -4205,7 +4205,7 @@
     {
       "definition": "Nordamerika............... 24, 1 700",
       "headword": "Nordamerika",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "Helgeland, namn på södra delen af Nordlands amt ( Norge ). Arealen 18, 115 qvkm.",
@@ -4400,7 +4400,7 @@
     {
       "definition": "Norrtulls sjukhus................... Cl, 2",
       "headword": "Norrtulls sjukhus",
-      "type": 1
+      "type": 0
     },
     {
       "definition": "FREDERIKSBORG",
