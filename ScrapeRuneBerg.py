@@ -10,7 +10,7 @@ def scrape_links(link):
   if res.status_code == 200:
     find_text_with_table = re.findall(r"(?<=<!-- mode=normal -->).+(?=<!-- NEWIMAGE2 ..>)",res.text, flags=re.S)
     if len(find_text_with_table) > 0:
-      with open(f"./dataset/NF_E{i}.txt", "a", encoding='utf-8') as f:
+      with open(f"./dataset/clear_text/NF_E{i}.txt", "a", encoding='utf-8') as f:
         text = re.sub(r"<table.+<\/table>|<br>|<i>|<\/i>|<span.*?>|<\/span>", "", find_text_with_table[0], flags=re.S)
         f.write(text+"\n")
 
