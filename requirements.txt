@@ -12,3 +12,4 @@ torch
 SPARQLWrapper
 qdrant-client
 sentence-transformers
+tf-keras
