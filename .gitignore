@@ -2,5 +2,9 @@ dataset/extracted_entries.json
 dataset/clear_text/*.pth
 dataset/headword/*.pth
 dataset/predicted_ner_entries.json
+dataset/linked_entries.json
 .DS_Store
 .venv
+.env
+embedded_entries.pth
+qdrant_storage/

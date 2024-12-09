@@ -13,3 +13,5 @@ SPARQLWrapper
 qdrant-client
 sentence-transformers
 tf-keras
+qdrant_client 
+python-dotenv
