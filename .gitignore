@@ -9,3 +9,4 @@ dataset/wiki_linked_entries.json
 .env
 embedded_entries.pth
 qdrant_storage/
+edan70env
