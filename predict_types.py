@@ -44,7 +44,7 @@ def predict_batch(model, batch, device):
 
 
 def main():
-    best_model = "model_unfrozen_10_best_model.pt"
+    best_model = "model_unfrozen_12_best_model.pt"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     tokenizer = AutoTokenizer.from_pretrained("KBLab/bert-base-swedish-cased")
     model = BertForSequenceClassification.from_pretrained(
@@ -60,7 +60,7 @@ def main():
         data = json.load(f)
         f.close()
 
-    for edition, entries in data.items():
+    for edition, entries in tqdm(data.items()):
         definitions = [entry["definition"] for entry in entries]
         dataset = PredictionDataset(definitions, tokenizer)
         dataloader = DataLoader(dataset, batch_size=32, shuffle=False)
