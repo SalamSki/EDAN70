@@ -1,4 +1,4 @@
-# Projekt i Datavetenskap EDAN70
+# ATLAS: Article Tracking, Linking and Analysis of Swedish encyclopedias
 
 This is a project in Natural Language Processing where we use entity linking to visualize how knowledge is distributed over time and space. Our work is based on *Nordisk Familjebok*, a historical Swedish encyclopedia. Throughout the project, we developed a pipeline for headword extraction, classification, edition matching, and entity linking to Wikidata.
 
